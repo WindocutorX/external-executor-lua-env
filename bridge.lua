@@ -13,7 +13,7 @@
 
     local PROCESS_ID = %PROCESS_ID%
     local VERSION = "1.00"
-    local USER_AGENT = "_Windocutor/" .. VERSION
+    local USER_AGENT = "EXTERNAL/" .. VERSION
 
     local CoreGui = game:GetService("CoreGui")
 
@@ -2133,7 +2133,7 @@
     end
 
     function Environment.getexecutorname()
-        return "Windocutor X"
+        return "EXTERNAL EXECUTOR"
     end
 
     function Environment.getexecutorversion()
